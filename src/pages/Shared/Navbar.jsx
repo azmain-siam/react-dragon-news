@@ -57,7 +57,7 @@ const Navbar = () => {
             <img src={profileDefualt} />
           </div>
         </div>
-        <Link>
+        <Link to={"/login"}>
           <button className="btn px-10 rounded-none bg-[#403F3F] font-semibold text-xl text-white hover:text-[#403F3F]">
             Login
           </button>
